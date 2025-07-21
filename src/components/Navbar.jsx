@@ -26,28 +26,19 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden sm:flex space-x-4 font-semibold text-sm sm:text-base">
-            <a
-              href="#home"
-              className="hover:underline transition-all duration-200"
-            >
+            <a href="#hero" className="hover:underline transition-all duration-200">
               Home
             </a>
-            <a
-              href="#about"
-              className="hover:underline transition-all duration-200"
-            >
+            <a href="#about" className="hover:underline transition-all duration-200">
               About
             </a>
-            <a
-              href="#aboutAnimated"
-              className="hover:underline transition-all duration-200"
-            >
-              Objective
+            <a href="#objectives" className="hover:underline transition-all duration-200">
+              Objectives
             </a>
-            <a
-              href="#contact"
-              className="hover:underline transition-all duration-200"
-            >
+            <a href="#services" className="hover:underline transition-all duration-200">
+              Services
+            </a>
+            <a href="#contact" className="hover:underline transition-all duration-200">
               Contact
             </a>
           </nav>
@@ -59,60 +50,31 @@ const Navbar = () => {
             aria-label="Toggle menu"
           >
             <div className="space-y-1">
-              <div
-                className={`w-6 h-0.5 bg-current transition-all duration-300 ${
-                  isMenuOpen ? "rotate-45 translate-y-1.5" : ""
-                }`}
-              ></div>
-              <div
-                className={`w-6 h-0.5 bg-current transition-all duration-300 ${
-                  isMenuOpen ? "opacity-0" : ""
-                }`}
-              ></div>
-              <div
-                className={`w-6 h-0.5 bg-current transition-all duration-300 ${
-                  isMenuOpen ? "-rotate-45 -translate-y-1.5" : ""
-                }`}
-              ></div>
+              <div className={`w-6 h-0.5 bg-current transition-all duration-300 ${isMenuOpen ? "rotate-45 translate-y-1.5" : ""}`}></div>
+              <div className={`w-6 h-0.5 bg-current transition-all duration-300 ${isMenuOpen ? "opacity-0" : ""}`}></div>
+              <div className={`w-6 h-0.5 bg-current transition-all duration-300 ${isMenuOpen ? "-rotate-45 -translate-y-1.5" : ""}`}></div>
             </div>
           </button>
         </div>
 
         {/* Mobile Navigation Menu */}
         <nav
-          className={`sm:hidden mt-4 transition-all duration-300 ease-in-out ${
-            isMenuOpen
-              ? "max-h-48 opacity-100"
-              : "max-h-0 opacity-0 overflow-hidden"
-          }`}
+          className={`sm:hidden mt-4 transition-all duration-300 ease-in-out ${isMenuOpen ? "max-h-48 opacity-100" : "max-h-0 opacity-0 overflow-hidden"}`}
         >
           <div className="flex flex-col space-y-3 py-4 font-semibold text-sm">
-            <a
-              href="#home"
-              className="hover:underline transition-all duration-200 py-2"
-              onClick={closeMenu}
-            >
+            <a href="#hero" className="hover:underline transition-all duration-200 py-2" onClick={closeMenu}>
               Home
             </a>
-            <a
-              href="#about"
-              className="hover:underline transition-all duration-200 py-2"
-              onClick={closeMenu}
-            >
+            <a href="#about" className="hover:underline transition-all duration-200 py-2" onClick={closeMenu}>
               About
             </a>
-            <a
-              href="#aboutAnimated"
-              className="hover:underline transition-all duration-200 py-2"
-              onClick={closeMenu}
-            >
-              Objective
+            <a href="#objectives" className="hover:underline transition-all duration-200 py-2" onClick={closeMenu}>
+              Objectives
             </a>
-            <a
-              href="#contact"
-              className="hover:underline transition-all duration-200 py-2"
-              onClick={closeMenu}
-            >
+            <a href="#services" className="hover:underline transition-all duration-200 py-2" onClick={closeMenu}>
+              Services
+            </a>
+            <a href="#contact" className="hover:underline transition-all duration-200 py-2" onClick={closeMenu}>
               Contact
             </a>
           </div>

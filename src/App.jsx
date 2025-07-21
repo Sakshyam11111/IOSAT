@@ -5,6 +5,7 @@ import AboutAnimated from "./components/AboutAnimated";
 import ContactPage from "./components/ContactPage";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Services from "./components/Services";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Hero />
       <About />
       <AboutAnimated />
+      <Services/>
       <ContactPage />
       <Footer />
     </>

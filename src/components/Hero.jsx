@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaArrowRight } from "react-icons/fa";
-import image1 from "../assets/image1.jpg"; // Background image
+import image1 from "../assets/image1.jpg"; 
 import Navbar from "./Navbar";
 
 const services = [
@@ -34,7 +34,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="relative min-h-screen bg-blue-900 text-white font-sans overflow-hidden">
+    <div className="relative min-h-screen bg-blue-900 text-white font-sans overflow-hidden overflow-x-hidden">
       {/* Background */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-60"
