@@ -1,6 +1,6 @@
 **[View live](https://iosatnetlify.netlify.app/)**
 
-**[View live](https://www.figma.com/design/6kS4ulxJs8anO4pm1DxeBO/Untitled?t=1gdvZIEoLEgLKRZV-0)**
+**[Figma live](https://www.figma.com/design/6kS4ulxJs8anO4pm1DxeBO/Untitled?t=1gdvZIEoLEgLKRZV-0)**
 
 
 # React + Vite
